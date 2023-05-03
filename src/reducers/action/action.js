@@ -1,8 +1,5 @@
-export const ADD_TODO = "ADD_TODO";
-
-function addTodo(todo) {
+export function addItem() {
     return {
-      type: ADD_TODO,
-      todo,
+      type: 'ADD_ITEM',
     };
   }
